@@ -17,7 +17,7 @@ setup(
     entry_points = {
         'console_scripts':
         ['pycody = pythonPackageCodigofacilito.__main__:main']
-    }
+    },
     version = VERSION,
     license='MIT',
     description = DESCRIPTION,
