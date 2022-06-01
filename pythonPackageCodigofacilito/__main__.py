@@ -11,8 +11,8 @@ import logging
 '''
 from pythonPackageCodigofacilito import unreleased
 
-logging.basicConfig(level=logging.DEBUG)
+logging.basicConfig(level=logging.INFO)
 
 if __name__ == '__main__':
     workshops = unreleased()
-    logging.debug(workshops)
+    # logging.debug(help(unreleased))
